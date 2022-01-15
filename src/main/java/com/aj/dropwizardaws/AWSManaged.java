@@ -17,7 +17,7 @@ public class AWSManaged implements Managed {
 
     public AWSManaged(AmazonWebServiceClient awsClient) {
         if (awsClient == null) {
-            throw new IllegalArgumentException("Aws client cannot be null");
+            throw new IllegalArgumentException("AWS client cannot be null");
         }
         this.awsClient = awsClient;
     }
