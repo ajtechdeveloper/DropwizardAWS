@@ -1,9 +1,5 @@
 package com.aj.dropwizardaws.domain;
 
-import com.amazonaws.services.sqs.model.MessageAttributeValue;
-
-import java.util.Map;
-
 public class AmazonSNSRequest {
 
     private String topicArn;
